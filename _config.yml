@@ -1,0 +1,50 @@
+# Site settings
+title: Uhuy
+email: @
+description: > # this means to ignore newlines until "baseurl:"
+  Kompilasi Kultwit
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: http://tjakep.github.io # the base hostname & protocol for your site
+rss_url: /pages/feed.xml
+author: Tj.
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+recent_num: 20
+
+# Social account
+twitter: /
+weibo: /
+github: /
+instagram: /
+linkedin: /
+
+# avatar and Favicon
+# avatar: /
+# favicon: /
+
+# disqus config
+# disqus:
+#  shortname: /
+
+# google analytics config
+# ga:
+#  id: 
+#  url: 
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
